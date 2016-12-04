@@ -1,7 +1,7 @@
-import api.categories.CategoriesRestImpl;
-import api.quizzes.QuizzesRestImpl;
-import api.subSubCategories.SubsubcategoriesRestImpl;
-import api.subcategories.SubcategoriesRestImpl;
+import api.CategoriesRestImpl;
+import api.QuizzesRestImpl;
+import api.SubsubcategoriesRestImpl;
+import api.SubcategoriesRestImpl;
 import io.swagger.jaxrs.config.BeanConfig;
 
 import javax.ws.rs.ApplicationPath;
@@ -33,7 +33,7 @@ public class ApplicationConfig extends Application {
     beanConfig.setSchemes(new String[]{"http"});
     beanConfig.setHost("localhost:8080");
     beanConfig.setBasePath("/restApi/api");
-    beanConfig.setResourcePackage("com.tommynordli.pg6100.excercise.restApi");
+    beanConfig.setResourcePackage(CategoriesRestImpl.class.getPackage().getName());
 
     //AWFUL NAME: this "set" is the one does actually init Swagger...
     beanConfig.setScan(true);

@@ -1,4 +1,4 @@
-package api.quizzes;
+package api;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

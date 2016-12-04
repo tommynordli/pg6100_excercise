@@ -1,4 +1,4 @@
-package api.subcategories;
+package api;
 
 import entity.Subcategory;
 import entity.Subsubcategory;

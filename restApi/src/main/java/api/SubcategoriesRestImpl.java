@@ -1,4 +1,4 @@
-package api.subcategories;
+package api;
 
 import ejb.CategoryEJB;
 import entity.Subcategory;

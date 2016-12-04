@@ -1,4 +1,4 @@
-package api.quizzes;
+package api;
 
 import dto.QuizDto;
 import io.swagger.annotations.Api;

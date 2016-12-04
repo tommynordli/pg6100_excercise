@@ -1,4 +1,4 @@
-package api.categories;
+package api;
 
 import dto.CategoryDto;
 import entity.Category;

@@ -1,4 +1,4 @@
-package api.categories;
+package api;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

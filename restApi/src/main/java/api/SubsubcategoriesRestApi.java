@@ -1,4 +1,4 @@
-package api.subSubCategories;
+package api;
 
 import entity.Subsubcategory;
 import io.swagger.annotations.Api;
