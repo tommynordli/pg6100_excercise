@@ -32,7 +32,7 @@ public class ApplicationConfig extends Application {
     beanConfig.setVersion("0.1");
     beanConfig.setSchemes(new String[]{"http"});
     beanConfig.setHost("localhost:8080");
-    beanConfig.setBasePath("/quizrest/api");
+    beanConfig.setBasePath("/restApi/api");
     beanConfig.setResourcePackage("com.tommynordli.pg6100.excercise.restApi");
 
     //AWFUL NAME: this "set" is the one does actually init Swagger...
