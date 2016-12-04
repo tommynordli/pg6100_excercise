@@ -3,7 +3,7 @@ Excercise we're working on through the PG6100 course on Westerdals Oslo ACT
 
 ## Setup
 ```
-$ mvn clean install -DskipTests
+$ mvn clean install
 $ cd restApi/
 $ mvn wildfly:run
 ```
