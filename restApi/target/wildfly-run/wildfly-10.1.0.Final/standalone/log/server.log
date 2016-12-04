@@ -1,0 +1,283 @@
+2016-12-04 15:00:43,110 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2016-12-04 15:00:43,428 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-12-04 15:00:43,523 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2016-12-04 15:00:43,524 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/Tommy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/vv/msl145dj6_z1snhsx_2bzcqw0000gn/T/
+	java.library.path = /Users/Tommy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.25-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final
+	jboss.host.name = tommys-macbook-pro-2
+	jboss.modules.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/modules
+	jboss.node.name = tommys-macbook-pro-2
+	jboss.qualified.host.name = tommys-macbook-pro-2.local
+	jboss.server.base.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = tommys-macbook-pro-2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.12.2
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/jboss-modules.jar -mp /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final -Djboss.server.base.dir=/Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone -Djboss.server.log.dir=/Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/log -Djboss.server.config.dir=/Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = NO
+	user.dir = /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi
+	user.home = /Users/Tommy
+	user.language = en
+	user.name = Tommy
+	user.timezone = Europe/Oslo
+2016-12-04 15:00:43,525 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Dorg.jboss.boot.log.file=/Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2016-12-04 15:00:44,811 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-12-04 15:00:44,834 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.4.0.Final
+2016-12-04 15:00:44,842 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.4.0.Final
+2016-12-04 15:00:44,903 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-12-04 15:00:44,906 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-12-04 15:00:44,912 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-12-04 15:00:44,926 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-12-04 15:00:44,968 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-12-04 15:00:45,009 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-12-04 15:00:45,010 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.0.Final starting
+2016-12-04 15:00:45,010 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-12-04 15:00:45,015 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+2016-12-04 15:00:45,112 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2016-12-04 15:00:45,122 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2016-12-04 15:00:45,130 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-12-04 15:00:45,144 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-12-04 15:00:45,198 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-12-04 15:00:45,198 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2016-12-04 15:00:45,296 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2016-12-04 15:00:45,337 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2016-12-04 15:00:45,340 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2016-12-04 15:00:45,487 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2016-12-04 15:00:45,488 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2016-12-04 15:00:45,499 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2016-12-04 15:00:45,643 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-12-04 15:00:45,787 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2016-12-04 15:00:45,839 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/deployments
+2016-12-04 15:00:45,999 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2016-12-04 15:00:46,059 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2016-12-04 15:00:46,101 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-12-04 15:00:46,101 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-12-04 15:00:46,101 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-12-04 15:00:46,102 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-12-04 15:00:46,103 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-12-04 15:00:46,103 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-12-04 15:00:46,192 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2016-12-04 15:00:46,355 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-12-04 15:00:46,355 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-12-04 15:00:46,356 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 3696ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2016-12-04 15:00:46,715 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/Tommy/Documents/Skole/NITH/PG-6100/Excercise/restApi/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content/99/29fcd40f702aad635e991548180467ef7097ca/content
+2016-12-04 15:00:46,739 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "restApi-1.0-SNAPSHOT.war" (runtime-name: "restApi-1.0-SNAPSHOT.war")
+2016-12-04 15:00:48,143 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for DB
+2016-12-04 15:00:48,297 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'restApi-1.0-SNAPSHOT.war#DB'
+2016-12-04 15:00:48,328 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 61) HHH000204: Processing PersistenceUnitInfo [
+	name: DB
+	...]
+2016-12-04 15:00:48,400 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment restApi-1.0-SNAPSHOT.war
+2016-12-04 15:00:48,430 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 61) HHH000412: Hibernate Core {5.0.10.Final}
+2016-12-04 15:00:48,432 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000206: hibernate.properties not found
+2016-12-04 15:00:48,434 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000021: Bytecode provider name : javassist
+2016-12-04 15:00:48,501 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.2.4.Final
+2016-12-04 15:00:48,502 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 61) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-04 15:00:48,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'QuizEJB' in deployment unit 'deployment "restApi-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/restApi-1.0-SNAPSHOT/QuizEJB!ejb.QuizEJB
+	java:app/restApi-1.0-SNAPSHOT/QuizEJB!ejb.QuizEJB
+	java:module/QuizEJB!ejb.QuizEJB
+	java:global/restApi-1.0-SNAPSHOT/QuizEJB
+	java:app/restApi-1.0-SNAPSHOT/QuizEJB
+	java:module/QuizEJB
+
+2016-12-04 15:00:48,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CategoriesRestImpl' in deployment unit 'deployment "restApi-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/restApi-1.0-SNAPSHOT/CategoriesRestImpl!api.categories.CategoriesRestApi
+	java:app/restApi-1.0-SNAPSHOT/CategoriesRestImpl!api.categories.CategoriesRestApi
+	java:module/CategoriesRestImpl!api.categories.CategoriesRestApi
+	java:global/restApi-1.0-SNAPSHOT/CategoriesRestImpl
+	java:app/restApi-1.0-SNAPSHOT/CategoriesRestImpl
+	java:module/CategoriesRestImpl
+
+2016-12-04 15:00:48,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'QuizzesRestImpl' in deployment unit 'deployment "restApi-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/restApi-1.0-SNAPSHOT/QuizzesRestImpl!api.quizzes.QuizzesRestApi
+	java:app/restApi-1.0-SNAPSHOT/QuizzesRestImpl!api.quizzes.QuizzesRestApi
+	java:module/QuizzesRestImpl!api.quizzes.QuizzesRestApi
+	java:global/restApi-1.0-SNAPSHOT/QuizzesRestImpl
+	java:app/restApi-1.0-SNAPSHOT/QuizzesRestImpl
+	java:module/QuizzesRestImpl
+
+2016-12-04 15:00:48,597 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SubsubcategoriesRestImpl' in deployment unit 'deployment "restApi-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/restApi-1.0-SNAPSHOT/SubsubcategoriesRestImpl!api.subSubCategories.SubsubcategoriesRestApi
+	java:app/restApi-1.0-SNAPSHOT/SubsubcategoriesRestImpl!api.subSubCategories.SubsubcategoriesRestApi
+	java:module/SubsubcategoriesRestImpl!api.subSubCategories.SubsubcategoriesRestApi
+	java:global/restApi-1.0-SNAPSHOT/SubsubcategoriesRestImpl
+	java:app/restApi-1.0-SNAPSHOT/SubsubcategoriesRestImpl
+	java:module/SubsubcategoriesRestImpl
+
+2016-12-04 15:00:48,597 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SubcategoriesRestImpl' in deployment unit 'deployment "restApi-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/restApi-1.0-SNAPSHOT/SubcategoriesRestImpl!api.subcategories.SubcategoriesRestApi
+	java:app/restApi-1.0-SNAPSHOT/SubcategoriesRestImpl!api.subcategories.SubcategoriesRestApi
+	java:module/SubcategoriesRestImpl!api.subcategories.SubcategoriesRestApi
+	java:global/restApi-1.0-SNAPSHOT/SubcategoriesRestImpl
+	java:app/restApi-1.0-SNAPSHOT/SubcategoriesRestImpl
+	java:module/SubcategoriesRestImpl
+
+2016-12-04 15:00:48,597 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEJB' in deployment unit 'deployment "restApi-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/restApi-1.0-SNAPSHOT/CategoryEJB!ejb.CategoryEJB
+	java:app/restApi-1.0-SNAPSHOT/CategoryEJB!ejb.CategoryEJB
+	java:module/CategoryEJB!ejb.CategoryEJB
+	java:global/restApi-1.0-SNAPSHOT/CategoryEJB
+	java:app/restApi-1.0-SNAPSHOT/CategoryEJB
+	java:module/CategoryEJB
+
+2016-12-04 15:00:48,907 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-12-04 15:00:48,908 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-12-04 15:00:48,990 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.3.5 (Final)
+2016-12-04 15:00:49,264 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 14) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'restApi-1.0-SNAPSHOT.war#DB'
+2016-12-04 15:00:49,320 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-12-04 15:00:49,556 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 14) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-12-04 15:00:49,561 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 14) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-12-04 15:00:49,609 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 14) Envers integration enabled? : true
+2016-12-04 15:00:50,187 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 14) HHH000227: Running hbm2ddl schema export
+2016-12-04 15:00:50,192 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Category if exists
+2016-12-04 15:00:50,192 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Category_Subcategory if exists
+2016-12-04 15:00:50,192 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Question if exists
+2016-12-04 15:00:50,193 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Question_answers if exists
+2016-12-04 15:00:50,193 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Quiz if exists
+2016-12-04 15:00:50,193 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Quiz_Question if exists
+2016-12-04 15:00:50,193 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Subcategory if exists
+2016-12-04 15:00:50,193 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Subcategory_Subsubcategory if exists
+2016-12-04 15:00:50,194 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Subsubcategory if exists
+2016-12-04 15:00:50,194 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop table Subsubcategory_Quiz if exists
+2016-12-04 15:00:50,194 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: drop sequence if exists hibernate_sequence
+2016-12-04 15:00:50,195 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2016-12-04 15:00:50,196 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Category (id bigint not null, name varchar(255) not null, primary key (id))
+2016-12-04 15:00:50,196 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Category_Subcategory (Category_id bigint not null, subCategories_id bigint not null)
+2016-12-04 15:00:50,197 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Question (id bigint not null, correctAnswer varchar(255), question varchar(255), primary key (id))
+2016-12-04 15:00:50,197 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Question_answers (Question_id bigint not null, answers varchar(255), answers_ORDER integer not null, primary key (Question_id, answers_ORDER))
+2016-12-04 15:00:50,198 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Quiz (id bigint not null, name varchar(255), subsubcategory_id bigint, primary key (id))
+2016-12-04 15:00:50,198 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Quiz_Question (Quiz_id bigint not null, questions_id bigint not null)
+2016-12-04 15:00:50,199 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Subcategory (id bigint not null, name varchar(255) not null, primary key (id))
+2016-12-04 15:00:50,199 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Subcategory_Subsubcategory (Subcategory_id bigint not null, subSubCategories_id bigint not null)
+2016-12-04 15:00:50,200 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Subsubcategory (id bigint not null, name varchar(255) not null, primary key (id))
+2016-12-04 15:00:50,200 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: create table Subsubcategory_Quiz (Subsubcategory_id bigint not null, quizzes_id bigint not null)
+2016-12-04 15:00:50,201 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Category_Subcategory add constraint UK_p67yrx4il96famhtw070ulxeg unique (subCategories_id)
+2016-12-04 15:00:50,201 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Quiz_Question add constraint UK_emaf1dh012y3vrjrl2nyxiphy unique (questions_id)
+2016-12-04 15:00:50,202 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Subcategory_Subsubcategory add constraint UK_82gl5okcgit4mw57axuji63rx unique (subSubCategories_id)
+2016-12-04 15:00:50,202 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Subsubcategory_Quiz add constraint UK_p72ug8r872onbc6cnor9k662n unique (quizzes_id)
+2016-12-04 15:00:50,203 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Category_Subcategory add constraint FK34fgbf34s47m8cgh40unepmtg foreign key (subCategories_id) references Subcategory
+2016-12-04 15:00:50,214 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Category_Subcategory add constraint FKghioao1bbwqr9cso7i5j6h4dh foreign key (Category_id) references Category
+2016-12-04 15:00:50,218 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Question_answers add constraint FKl655qswfb4porobltxwru7kor foreign key (Question_id) references Question
+2016-12-04 15:00:50,221 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Quiz add constraint FK1fw7jpxv66peu2d21hnir3lpo foreign key (subsubcategory_id) references Subsubcategory
+2016-12-04 15:00:50,223 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Quiz_Question add constraint FK2vx560tpw6gv7gi861g2x3a4m foreign key (questions_id) references Question
+2016-12-04 15:00:50,224 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Quiz_Question add constraint FK4dv986ko4hgpfg43qahdmwtbk foreign key (Quiz_id) references Quiz
+2016-12-04 15:00:50,226 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Subcategory_Subsubcategory add constraint FKqpt08sp2x1ubxc63ai2q0lehg foreign key (subSubCategories_id) references Subsubcategory
+2016-12-04 15:00:50,227 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Subcategory_Subsubcategory add constraint FK4n821mmcjk50p6lkkoyhts5pl foreign key (Subcategory_id) references Subcategory
+2016-12-04 15:00:50,245 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Subsubcategory_Quiz add constraint FK2e0tvdjejtf7lpskagmn3o1mj foreign key (quizzes_id) references Quiz
+2016-12-04 15:00:50,246 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: alter table Subsubcategory_Quiz add constraint FKeo9qp1vvsexilwvl007ear9ou foreign key (Subsubcategory_id) references Subsubcategory
+2016-12-04 15:00:50,247 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 14) HHH000230: Schema export complete
+2016-12-04 15:00:50,254 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 14) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-04 15:00:52,186 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 27) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ApplicationConfig
+2016-12-04 15:00:52,186 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 27) RESTEASY002200: Adding class resource api.quizzes.QuizzesRestImpl from Application class ApplicationConfig
+2016-12-04 15:00:52,186 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 27) RESTEASY002200: Adding class resource api.subSubCategories.SubsubcategoriesRestImpl from Application class ApplicationConfig
+2016-12-04 15:00:52,186 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 27) RESTEASY002205: Adding provider class ObjectMapperContextResolver from Application class ApplicationConfig
+2016-12-04 15:00:52,187 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 27) RESTEASY002200: Adding class resource io.swagger.jaxrs.listing.ApiListingResource from Application class ApplicationConfig
+2016-12-04 15:00:52,187 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 27) RESTEASY002205: Adding provider class io.swagger.jaxrs.listing.SwaggerSerializers from Application class ApplicationConfig
+2016-12-04 15:00:52,187 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 27) RESTEASY002200: Adding class resource api.categories.CategoriesRestImpl from Application class ApplicationConfig
+2016-12-04 15:00:52,187 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 27) RESTEASY002200: Adding class resource api.subcategories.SubcategoriesRestImpl from Application class ApplicationConfig
+2016-12-04 15:00:52,438 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 27) WFLYUT0021: Registered web context: /quizrest
+2016-12-04 15:00:52,507 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "restApi-1.0-SNAPSHOT.war" (runtime-name : "restApi-1.0-SNAPSHOT.war")
+2016-12-04 15:03:53,964 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2016-12-04 15:03:54,002 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /quizrest
+2016-12-04 15:03:54,038 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2016-12-04 15:03:54,119 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'restApi-1.0-SNAPSHOT.war#DB'
+2016-12-04 15:03:54,121 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000227: Running hbm2ddl schema export
+2016-12-04 15:03:54,125 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Category if exists
+2016-12-04 15:03:54,138 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Category_Subcategory if exists
+2016-12-04 15:03:54,138 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Question if exists
+2016-12-04 15:03:54,140 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Question_answers if exists
+2016-12-04 15:03:54,141 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Quiz if exists
+2016-12-04 15:03:54,142 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Quiz_Question if exists
+2016-12-04 15:03:54,142 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Subcategory if exists
+2016-12-04 15:03:54,143 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Subcategory_Subsubcategory if exists
+2016-12-04 15:03:54,143 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2016-12-04 15:03:54,143 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Subsubcategory if exists
+2016-12-04 15:03:54,144 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop table Subsubcategory_Quiz if exists
+2016-12-04 15:03:54,150 INFO  [stdout] (ServerService Thread Pool -- 75) Hibernate: drop sequence if exists hibernate_sequence
+2016-12-04 15:03:54,151 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000230: Schema export complete
+2016-12-04 15:03:54,158 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'restApi-1.0-SNAPSHOT.war#DB'
+2016-12-04 15:03:54,163 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-12-04 15:03:54,172 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2016-12-04 15:03:54,174 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2016-12-04 15:03:54,174 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2016-12-04 15:03:54,174 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2016-12-04 15:03:54,174 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2016-12-04 15:03:54,175 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.4.0.Final stopping
+2016-12-04 15:03:54,224 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment restApi-1.0-SNAPSHOT.war (runtime-name: restApi-1.0-SNAPSHOT.war) in 245ms
+2016-12-04 15:03:54,231 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 249ms
