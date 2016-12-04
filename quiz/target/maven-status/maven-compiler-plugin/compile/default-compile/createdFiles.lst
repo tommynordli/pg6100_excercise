@@ -1,7 +1,0 @@
-entity/Subcategory.class
-entity/Category.class
-ejb/QuizEJB.class
-entity/Subsubcategory.class
-ejb/CategoryEJB.class
-embeddable/Question.class
-entity/Quiz.class
