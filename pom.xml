@@ -40,11 +40,11 @@
                 <version>${project.version}</version>
             </dependency>
 
+
             <dependency>
                 <groupId>com.tommynordli.pg6100</groupId>
                 <artifactId>utils</artifactId>
                 <version>${project.version}</version>
-                <type>test-jar</type>
             </dependency>
 
             <!-- JEE -->

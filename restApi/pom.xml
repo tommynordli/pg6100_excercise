@@ -18,12 +18,6 @@
             <groupId>com.tommynordli.pg6100</groupId>
             <artifactId>quiz</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.tommynordli.pg6100</groupId>
-            <artifactId>utils</artifactId>
-            <type>test-jar</type>
-        </dependency>
-
 
         <dependency>
             <groupId>javax</groupId>
@@ -66,7 +60,10 @@
             <groupId>io.swagger</groupId>
             <artifactId>swagger-hibernate-validations</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+        </dependency>
     </dependencies>
 
 

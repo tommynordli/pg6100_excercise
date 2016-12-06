@@ -10,9 +10,6 @@
           <element id="archive" name="quiz-1.0-SNAPSHOT.jar">
             <element id="module-output" name="quiz" />
           </element>
-          <element id="archive" name="utils-1.0-SNAPSHOT-tests.jar">
-            <element id="module-test-output" name="utils" />
-          </element>
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
